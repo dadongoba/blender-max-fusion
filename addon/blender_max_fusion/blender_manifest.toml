@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "blender_max_fusion"
+version = "0.3.1"
+name = "Unified Blender Max Maya Workflow"
+tagline = "A modeling workspace with familiar controls"
+maintainer = "Blender Max contributors"
+type = "add-on"
+tags = ["User Interface", "3D View"]
+blender_version_min = "5.2.0"
+blender_version_max = "5.3.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc"]
